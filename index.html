@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .page1 {
+            height: 100vh;
+            width: 100%;
+        }
+
+        nav {
+            height: 40px;
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+        }
+        .img{
+            margin-top: 100px;
+        }
+
+        .page2 {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .about-me {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: font1;
+        }
+
+        .about-container {
+            height: 70%;
+            width: 60%;
+        }
+
+        .about-container h1 {
+            padding-bottom: 3vmax;
+        }
+
+        .about-p1 {
+            font-size: 1.3vmax;
+            margin-bottom: 1vmax;
+        }
+
+        .about-p2 {
+            font-size: 1.3vmax;
+            margin-bottom: 1vmax;
+        }
+
+        .about-p3 {
+            font-size: 1.3vmax;
+            margin-bottom: 1vmax;
+        }
+
+        .about-p4 {
+            font-size: 1.3vmax;
+            margin-bottom: 1vmax;
+        }
+
+        .page3 {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form {
+            height: 50%;
+            width: 50%;
+            border: 2px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 40px;
+            gap: 20px;
+        }
+        .inputs{
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        button{
+            padding: 5px;
+            border-radius: 10px;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- page 1 hero div  -->
+    <section class="page1">
+        <div class="navbar">
+            <h1>ASHOK YADAV</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skill">Skill</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </div>
+        <img height="450px" class="img" src="./images/finalpic.png" alt="ASHOK YADAV">
+    </section>
+
+    <!-- page2 about me -->
+    <section id="about"  class="page2">
+        <div class="about-me">
+            <h1>[ I design & build experiences ]</h1>
+            <div id="skill" class="about-container">
+                <h1><strong>About_Me & Skills</strong></h1>
+                <p class="about-p1">
+                    Hey there! I'm <strong>Ashok Yadav</strong>, a young, dynamic, and enthusiastic individual.
+                    I'm a lifelong learner with an insatiable
+                    passion for exploring new opportunities in the ever-evolving tech field. Known for my strong
+                    work ethic and attention to detail, I thrive on challenges and love turning ideas into reality.
+                </p>
+                <p class="about-p2">
+                    <strong>What I Bring to the Table:</strong><br />
+                    - A solid foundation in Computer Science and Programming Languages like java<br />
+                    - <span class="mern">Mern-Stack Development</span> skills including <span class="about-skill">HTML,
+                        CSS, JavaScript, React.js, Node.js, Express.js,
+                        MongoDB and Tailwind CSS</span><br />
+                    - A creative mindset and a knack for problem-solving
+                </p>
+
+                <p class="about-p3">
+                    <strong>In My Personal Life:</strong><br />
+                    I'm open-minded, always eager to embrace new perspectives, and believe in continuous growth.
+                </p>
+                <p class="about-p4">
+                    <strong>Let's Connect!</strong><br />
+                    I'm excited to connect with like-minded professionals and learn from their experiences. Let's
+                    collaborate, innovate, and grow together!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--page3 contact form -->
+    <section id="contact" class="page3">
+        <form class="form">
+            <input class="inputs" type="text" name="name" placeholder="Your Name" />
+            <input class="inputs" type="email" name="email" placeholder="area2nd@gmail.com" />
+            <textarea class="inputs" placeholder="Type your message here..." rows={3}></textarea>
+            <button>Send message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h1>This is my portfolio, created with lots of love, Hope you like it.❤️</h1>
+    </footer>
+
+</body>
+
+</html>
