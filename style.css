@@ -523,4 +523,10 @@ nav button:hover {
 
 }
 
-/* css end */
+.page6{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
