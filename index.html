@@ -11,27 +11,32 @@
 </head>
 
 <body>
-    <!-- nav bar -->
-    <nav>
-        <h1>ASHOK <br> YADAV-</h1>
-        <svg class="header_back__30UYF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 62">
-            <g fill="white" fill-rule="nonzero">
-                <path
-                    d="M31 .5C14.155.5.5 14.155.5 31S14.155 61.5 31 61.5 61.5 47.845 61.5 31 47.845.5 31 .5zm0 1c16.292 0 29.5 13.208 29.5 29.5S47.292 60.5 31 60.5 1.5 47.292 1.5 31 14.708 1.5 31 1.5z">
-                </path>
-                <path
-                    d="M38.974 33.704c-1.733-.021-5.35-1.67-15.577-1.712 3.83.877 7.425 2.418 7.318 4.622-.043 1.113-.728 1.926-1.947 1.947-.471 0-.963-.15-1.37-.556-1.37-1.37-1.284-4.922-6.098-6.398l-.407-.107c5.221-1.37 5.2-4.986 6.505-6.462.385-.428.942-.556 1.412-.556 1.156 0 1.883.813 1.905 1.947.021 2.204-3.66 3.787-7.51 4.643 10.377-.064 14.036-1.712 15.748-1.669 1.326 0 2.375.963 2.353 2.14 0 1.24-1.005 2.16-2.332 2.16z">
-                </path>
-            </g>
-        </svg>
-        <button class="button">Get My Resume <i class="ri-arrow-drop-up-line"></i> </button>
-    </nav>
     <main>
-        <!-- Background video & page1  -->
+
+        <!-- Background video -->
+        <video class="background-video" autoplay muted loop preload="auto" src="./videos/background-video.mp4"></video>
+
+        <!-- nav bar -->
+        <nav>
+            <h1>ASHOK <br> YADAV-</h1>
+            <svg class="header_back__30UYF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 62">
+                <g fill="white" fill-rule="nonzero">
+                    <path
+                        d="M31 .5C14.155.5.5 14.155.5 31S14.155 61.5 31 61.5 61.5 47.845 61.5 31 47.845.5 31 .5zm0 1c16.292 0 29.5 13.208 29.5 29.5S47.292 60.5 31 60.5 1.5 47.292 1.5 31 14.708 1.5 31 1.5z">
+                    </path>
+                    <path
+                        d="M38.974 33.704c-1.733-.021-5.35-1.67-15.577-1.712 3.83.877 7.425 2.418 7.318 4.622-.043 1.113-.728 1.926-1.947 1.947-.471 0-.963-.15-1.37-.556-1.37-1.37-1.284-4.922-6.098-6.398l-.407-.107c5.221-1.37 5.2-4.986 6.505-6.462.385-.428.942-.556 1.412-.556 1.156 0 1.883.813 1.905 1.947.021 2.204-3.66 3.787-7.51 4.643 10.377-.064 14.036-1.712 15.748-1.669 1.326 0 2.375.963 2.353 2.14 0 1.24-1.005 2.16-2.332 2.16z">
+                    </path>
+                </g>
+            </svg>
+            <button class="button">Resume <i class="ri-arrow-drop-up-line"></i> </button>
+        </nav>
+
+        <!--page1 hero div  -->
         <section class="page1">
-            <video autoplay muted loop preload="auto" src="./videos/background-video.mp4"></video>
             <img src="./images/background-image.png" alt="ASHOK YADAV">
         </section>
+
         <!-- page-2 -->
         <section class="page2">
             <div class="page2-container">
@@ -43,6 +48,7 @@
                 </div>
             </div>
         </section>
+
         <!-- page3 About -->
         <section class="page3">
             <div class="about-me">
@@ -86,17 +92,18 @@
                 </div>
             </div>
         </section>
+
         <!-- page4 Education-->
-        <section class="page4">
+         <section class="page4">
             <div class="page4-top">
                 <div class="page4-top-left">
-                    <h1>Education</h1>
+                    <h2>Education</h2>
                 </div>
                 <div class="page4-arrow">
                     <img src="./images/arrow.png" alt="arrow">
                 </div>
                 <div page4-top-right>
-                    <h1>Qualifications</h1>
+                    <h2>Qualifications</h2>
                 </div>
             </div>
             <div class="page4-bottom">
@@ -104,8 +111,6 @@
                     <h1>🎓 Diploma in Computer Science </h1>
                     <h2>2018-2021</h2>
                     <p>
-
-                        <!-- Diploma in Computer Science Engineering -->
 
                         🏫 Education:- I pursued my Diploma in Computer Science Engineering at People's University from
                         2018
@@ -123,9 +128,6 @@
                     <h1>🎓 Bachelor of Technology </h1>
                     <h2>2021-2024</h2>
                     <p>
-
-                        <!-- 🎓 Bachelor of Technology in Computer Science Engineering -->
-
                         🏫 Education:- I pursued my Bachelor of Technology in Computer Science Engineering at Sagar
                         Institute of Research & Technology - Excellence From 2021 to 2024. With a CGPA of 6.99, my
                         degree
@@ -153,7 +155,7 @@
         </section>
 
         <!-- page5 Projects -->
-        <section class="page6">
+        <!-- <section class="page6">
             <div class="project1-div">
                 <h1>WorkOn is a full-stack job portal </h1>
                 <img src="./images/project1.png" alt="project1 image">
@@ -183,12 +185,13 @@
                     <h2>- Public certificate verification using Certificate ID. </h2>
                     <h2>- Full certificate preview. </h2>
                     <h2>- User authentication & role-based access.</h2>
+                    
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- page7 skills-->
-        <section class="page7">
+        <!-- <section class="page7">
             <h1>Things I'm <span>Good</span> at</h1>
             <h3>skills, Interested, Passion and hobbies</h3>
             <div class="img-box">
@@ -211,13 +214,11 @@
                     </div>
                 </div>
             </div>
-
-
-        </section>
-        <h1>This is my portfolio, created with lots of love, Hope you like it.❤️</h1>
+        </section> -->
+        <!-- <h1>This is my portfolio, created with lots of love, Hope you like it.❤️</h1> -->
 
     </main>
-    <script src="script.js"></script>t
+    <script src="script.js"></script>
 </body>
 
 </html>
