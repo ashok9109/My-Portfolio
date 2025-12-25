@@ -534,20 +534,22 @@ nav button:hover {
 /* Page6 code */
 
 .page6 {
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     position: relative;
     z-index: 999;
     color: white;
-    padding: 30px;
+    padding: 10px;
 }
 
 .project1-div {
-    height: 90%;
+    height: 50%;
     width: 100%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -562,7 +564,7 @@ nav button:hover {
 }
 
 .page6 img {
-    height: 180px;
+    height: 120px;
     border-radius: 10px;
 }
 
@@ -581,6 +583,8 @@ nav button:hover {
     padding: 20px;
     font-family: font4;
     font-weight: 500;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 .project-points h2 {
@@ -591,8 +595,9 @@ nav button:hover {
 }
 
 .project2-div {
-    height: 90%;
+    height: 50%;
     width: 100%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -610,43 +615,36 @@ nav button:hover {
     padding: 20px;
     font-family: font4;
     font-weight: 500;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
 }
 
 /* page6 responsive */
 
-@media (max-width:600px) {
+@media (min-width:768px) {
+
     .page6 {
-        min-height: 100%;
+        min-height: 100vh;
         width: 100%;
-        display: block;
     }
 
-    .project1-div {
-        height: 50%;
-        width: 100%;
-        padding: 20px;
-        border-bottom: 2px solid white;
-    }
-
-    .project2-div {
-        height: 50%;
-        width: 100%;
-        padding: 20px;
-        border-bottom: 2px solid white;
+    .page6 img {
+        height: 180px;
+        border-radius: 10px;
     }
 }
 
 /* Page7 code */
 
 .page7 {
-    height: 100vh;
+    min-height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: 999;
     padding: 20px;
 }
 
@@ -669,6 +667,7 @@ nav button:hover {
 .img-box {
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .img-div {
@@ -678,12 +677,12 @@ nav button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 50px;
     padding: 40px;
 }
 
 .img-div img {
-    height: 7vmax;
+    height: 5vmax;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -695,7 +694,7 @@ nav button:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 30px;
+    gap: 10px;
 
 }
 
@@ -703,19 +702,59 @@ nav button:hover {
     height: 40%;
     width: 100%;
     display: flex;
-    gap: 30px;
+    gap: 10px;
     align-items: center;
     justify-content: flex-start;
 }
 
 /* page7 responsive */
-@media (max-width:600px) {
 
+@media (min-width:768px) {
     .page7 {
-        min-height: 100%;
+        min-height: 100vh;
         width: 100%;
-        padding: 5px;
-        border-bottom: 2px solid white;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px;
     }
 
+    .page7 h1 {
+        font-size: 5vmax;
+    }
+
+    .page7 h3 {
+        font-size: 2vmax;
+    }
+
+    .img-box {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .img-div {
+        height: 100%;
+        width: 100%;
+        gap: 60px;
+        padding: 40px;
+    }
+
+    .img-div img {
+        height: 7vmax;
+        padding: 20px;
+    }
+
+    .left-img-div {
+        height: 40%;
+        width: 100%;
+        gap: 50px;
+
+    }
+
+    .right-img-div {
+        height: 40%;
+        width: 100%;
+        gap: 50px;
+  
+    }
 }
