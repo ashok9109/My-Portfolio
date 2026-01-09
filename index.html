@@ -29,7 +29,9 @@
                     </path>
                 </g>
             </svg>
-            <button class="button">Resume <i class="ri-arrow-drop-up-line"></i> </button>
+            <a href="./pdf/Ashok_Yadav.pdf" target="_blank" download>
+                <button class="button">Get Resume <i class="ri-arrow-drop-up-line"></i> </button>
+            </a>
         </nav>
 
         <!--page1 hero div  -->
@@ -220,15 +222,36 @@
             <h1>MERN FULL STACK DEVELOPER</h1>
         </section>
 
+        <!-- contact page10 -->
+        <section class="page10">
+            <h1>Contact Us</h1>
+            <form id="contact-form">
+                <p>
+                    <label class="label"> Name : </label>
+                    <input class="input" placeholder="enter you name" id="name" name="name" type="text">
+                </p>
+                <p>
+                    <label class="label"> Email : </label>
+                    <input class="input" placeholder="enter your email" id="email" name="email" type="email">
+                </p>
+                <p>
+                    <label class="label">Message : </label>
+                    <textarea placeholder="enter your message" rows='3' id="message" name="message"></textarea>
+                </p>
+                <button type="submit">Send</button>
+            </form>
+
+        </section>
+
         <!-- social media links -->
-        <section class="page9">
+        <section class="page11">
             <div>
 
                 <!-- linkedin link and icon -->
                 <a href="https://linkedin.com/in/ashok-yadav-768172279" target="_blank">
                     <div class="elem">
                         <h1>linkedin</h1>
-                        <img src="./images/linkedin-icon.avif" alt="linkedin-icon">
+                        <img src="./images/linkedin-icon.png" alt="linkedin-icon">
                     </div>
                 </a>
 
@@ -261,6 +284,15 @@
         <!-- <h1>This is my portfolio, created with lots of love, Hope you like it.❤️</h1> -->
 
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init({
+                publicKey: "NLTUoYml7K45cJ5gh",
+            });
+        })();
+    </script>
+
     <script src="script.js"></script>
 </body>
 
