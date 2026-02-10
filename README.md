@@ -22,7 +22,7 @@ A responsive personal portfolio website designed and developed to showcase proje
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup method
 
 ```bash
 git clone https://github.com/ashok9109/My-Portfolio.git
